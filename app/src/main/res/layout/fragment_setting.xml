@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".Fragments.SettingFragment">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        tools:context=".Fragments.SettingFragment">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/cover_image_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/logo_png"
+                    android:layout_marginBottom="20dp">
+                </ImageView>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_setting"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="170dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_profile">
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:id="@+id/username_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="username"
+                    android:layout_below="@+id/profile_image_setting"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorDarkGray"
+                    android:fontFamily="@font/asap"
+                    >
+                </TextView>
+                <TextView
+                    android:id="@+id/alamat_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:layout_below="@+id/username_setting"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/colorDarkGray"
+                    android:fontFamily="@font/asap"
+                    >
+                </TextView>
+                <TextView
+                    android:id="@+id/pekerjaan_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pekerjaan"
+                    android:layout_below="@+id/alamat_setting"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/colorDarkGray"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/asap"
+                    >
+                </TextView>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv1"
+            android:gravity="center"
+            android:background="@color/WhitetrialColor"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:padding="6dp">
+        </LinearLayout>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnTanyaCustomer"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:layout_below="@+id/cv1"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:text="Tanya Customer Service"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="normal"-->
+<!--            android:textColor="@color/WhitetrialColor"-->
+<!--            android:fontFamily="@font/asap"-->
+<!--            android:textSize="15sp"-->
+<!--            android:background="@drawable/btn_background_two"-->
+<!--            android:layout_height="50dp"></Button>-->
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

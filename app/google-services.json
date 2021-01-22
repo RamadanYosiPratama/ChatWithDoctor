@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "939781537313",
+    "project_id": "dokterlinkv2-1-1",
+    "storage_bucket": "dokterlinkv2-1-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939781537313:android:a7ca1f333b10256b556d60",
+        "android_client_info": {
+          "package_name": "com.gmh.dokterlinkv2_1_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939781537313-ea6m5t3vd12nurr5c4g15amn7n2v6dc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6MQ6Y5kvDxFihec3z4lvi99EjcHfjNx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939781537313-ea6m5t3vd12nurr5c4g15amn7n2v6dc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

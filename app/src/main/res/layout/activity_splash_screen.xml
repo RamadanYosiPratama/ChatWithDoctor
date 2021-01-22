@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".SplasScreen">
+    
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Splash"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading"
+        app:lottie_repeatCount="2"/>
+    
+    <TextView
+        android:id="@+id/txtForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textAllCaps="false"
+        android:text="From"
+        android:fontFamily="@font/asap"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klinik Keluarga Kita"
+        android:textColor="@color/colorDarkGray"
+        android:layout_below="@+id/txtForm"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/asap"
+        android:textSize="15sp"/>
+</RelativeLayout>
